@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<actionScriptProperties analytics="false" mainApplicationPath="Main.as" projectUUID="ebec44d5-564e-4c0b-bd40-66db6c40588b" version="11">
+<actionScriptProperties analytics="false" mainApplicationPath="swfs/BgWorker.as" projectUUID="ebec44d5-564e-4c0b-bd40-66db6c40588b" version="11">
   <compiler additionalCompilerArguments="-locale en_US" advancedTelemetry="false" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="false" htmlExpressInstall="true" htmlGenerate="false" htmlHistoryManagement="false" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="true" useDebugRSLSwfs="true" useFlashSDK="true" verifyDigests="true" warn="true">
     <compilerSourcePath/>
     <libraryPath defaultLinkType="0">
@@ -34,12 +34,15 @@
     <sourceAttachmentPath/>
   </compiler>
   <applications>
+    <application path="swfs/BgWorker.as">
+      <airExcludes/>
+    </application>
     <application path="Main.as">
       <airExcludes/>
     </application>
   </applications>
   <modules/>
-  <workers/>
+  <workers managerFilePath="src/Workers.as"/>
   <buildCSSFiles/>
   <flashCatalyst validateFlashCatalystCompatibility="false"/>
   <buildTargets>
